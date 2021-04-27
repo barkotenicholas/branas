@@ -81,7 +81,7 @@ public class CheckoutActivity extends AppCompatActivity {
     }
 
     private void createSub() {
-        billingProcessor.subscribe(CheckoutActivitygit.this,"acup");
+        billingProcessor.subscribe(CheckoutActivity.this,"acup");
 
     }
 
