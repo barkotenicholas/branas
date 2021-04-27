@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.model;
+package com.nico.productcatalogue.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

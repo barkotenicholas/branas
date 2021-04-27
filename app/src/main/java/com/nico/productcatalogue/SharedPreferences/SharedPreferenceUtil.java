@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.SharedPreferences;
+package com.nico.productcatalogue.SharedPreferences;
 
 import android.content.Context;
 import android.content.ContextWrapper;

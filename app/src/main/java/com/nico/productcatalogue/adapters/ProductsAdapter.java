@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.adapters;
+package com.nico.productcatalogue.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.demo.productcatalogue.R;
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.R;
+import com.nico.productcatalogue.model.ProductModel;
 
 import java.util.List;
 

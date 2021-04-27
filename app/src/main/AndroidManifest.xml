@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.productcatalogue">
+    package="com.nico.productcatalogue">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CheckoutActivity"></activity>
-        <activity android:name=".activity.ProductDetailActivity" />
-        <activity android:name=".activity.ProductsDisplayActivity" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.nico.productcatalogue.activity.CheckoutActivity"></activity>
+        <activity android:name="com.nico.productcatalogue.activity.ProductDetailActivity" />
+        <activity android:name="com.nico.productcatalogue.activity.ProductsDisplayActivity" />
+        <activity android:name="com.nico.productcatalogue.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.demo.productcatalogue;
+package com.nico.productcatalogue;
 
 import org.junit.Test;
 

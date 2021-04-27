@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.database;
+package com.nico.productcatalogue.database;
 
 import android.content.Context;
 
@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.model.ProductModel;
 
 @Database(entities = {ProductModel.class},exportSchema = false,version = 1)
 public abstract class ProductsDatabase extends RoomDatabase {

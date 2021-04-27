@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.database;
+package com.nico.productcatalogue.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -7,11 +7,9 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.model.ProductModel;
 
 import java.util.List;
-
-import static android.icu.text.MessagePattern.ArgType.SELECT;
 
 @Dao
 public interface ProductsDao {

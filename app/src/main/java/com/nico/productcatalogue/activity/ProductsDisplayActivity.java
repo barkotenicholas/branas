@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.activity;
+package com.nico.productcatalogue.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,14 +10,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.demo.productcatalogue.R;
-import com.demo.productcatalogue.SharedPreferences.SharedPreferenceUtil;
-import com.demo.productcatalogue.adapters.ProductsAdapter;
-import com.demo.productcatalogue.database.ProductsDatabase;
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.R;
+import com.nico.productcatalogue.SharedPreferences.SharedPreferenceUtil;
+import com.nico.productcatalogue.adapters.ProductsAdapter;
+import com.nico.productcatalogue.database.ProductsDatabase;
+import com.nico.productcatalogue.model.ProductModel;
 import java.util.List;
 
-public class ProductsDisplayActivity extends AppCompatActivity implements com.demo.productcatalogue.adapters.ProductsAdapter.ItemClicked {
+public class ProductsDisplayActivity extends AppCompatActivity implements com.nico.productcatalogue.adapters.ProductsAdapter.ItemClicked {
 
     private static final String TAG = "ProductsDisplayActivity";
     RecyclerView productsRecycler;

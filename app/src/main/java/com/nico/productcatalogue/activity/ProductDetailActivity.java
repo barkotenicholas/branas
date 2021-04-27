@@ -1,4 +1,4 @@
-package com.demo.productcatalogue.activity;
+package com.nico.productcatalogue.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.demo.productcatalogue.R;
-import com.demo.productcatalogue.database.ProductsDatabase;
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.R;
+import com.nico.productcatalogue.database.ProductsDatabase;
+import com.nico.productcatalogue.model.ProductModel;
 
 public class ProductDetailActivity extends AppCompatActivity {
     ProductModel selectedProduct;

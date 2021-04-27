@@ -1,4 +1,4 @@
-package com.demo.productcatalogue;
+package com.nico.productcatalogue;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,10 +7,10 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
-import com.demo.productcatalogue.SharedPreferences.SharedPreferenceUtil;
-import com.demo.productcatalogue.activity.ProductsDisplayActivity;
-import com.demo.productcatalogue.database.ProductsDatabase;
-import com.demo.productcatalogue.model.ProductModel;
+import com.nico.productcatalogue.SharedPreferences.SharedPreferenceUtil;
+import com.nico.productcatalogue.activity.ProductsDisplayActivity;
+import com.nico.productcatalogue.database.ProductsDatabase;
+import com.nico.productcatalogue.model.ProductModel;
 
 public class SplashScreen extends AppCompatActivity {
 

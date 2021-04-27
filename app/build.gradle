@@ -37,4 +37,6 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:2.2.5"
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+
 }
